@@ -3,12 +3,16 @@
 body {
   background: $very-dark-blue-mainbg;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
   background: $very-dark-blue-cardbg;
   display: flex;
-  margin-left: 9rem;
   justify-content: center;
   flex-direction: column;
   align-items: center;
