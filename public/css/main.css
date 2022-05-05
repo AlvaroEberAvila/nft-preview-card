@@ -10,6 +10,11 @@
 body {
   background: #0d192b;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
@@ -17,7 +22,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 9rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
